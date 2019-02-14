@@ -1,0 +1,89 @@
+@import 'common.scss';
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    height: pxTorem(44px);
+    display: flex;
+    justify-content: space-between;
+    line-height: pxTorem(44px);
+    font-size: pxTorem(18px);
+    background: greenyellow;
+    color: #fff;
+}
+section{
+    width: 100%;
+}
+#swiper{
+    width: 100%;
+    height: pxTorem(150px);
+}
+#swiper img{
+    width: 100%;
+    height: pxTorem(150px);
+}
+.dlis{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: pxTorem(12px);
+    
+
+    dl{
+        width: 18%;
+        text-align: center;
+        margin-top: pxTorem(12px);
+    }
+    img{
+        width: pxTorem(50px);
+        height: pxTorem(50px);
+    }
+}
+.filter{
+    width: 100%;
+    height: pxTorem(50px);
+    display: flex;
+    justify-content:space-around;
+    margin-top: pxTorem(14px);
+    select{
+        border: 0;
+        height: pxTorem(30px);
+        font-size: pxTorem(16px);
+
+        option{
+            height: pxTorem(30px);
+        }
+    }
+}
+.list{
+    width: 100%;
+    height: pxTorem(300px);
+    overflow: hidden;
+}
+.lis{
+    width: 100%;
+    height: auto;
+}
+.lis dl{
+    width: 100%;
+    height: pxTorem(80px);
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    img{
+        width: pxTorem(60px);
+        height: pxTorem(60px);
+    }
+    dd{
+        font-size: pxTorem(18px);
+        margin-left: pxTorem(20px);
+    }
+}
