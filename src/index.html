@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/better-scroll.js"></script>
+    <script src="js/flexible.js"></script>
+    <script src="js/swiper.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <span><</span>
+            <span>宁夏景点门票</span>
+            <span></span>
+        </header>
+        <section>
+             <div class="swiper-container" id="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/1.gif" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/2.gif" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/3.gif" alt="">
+                    </div>
+                    
+                </div>
+                <div class="swiper-pagination"></div>
+             </div>  
+             <div class="dlis">
+                <dl>
+                    <dt><img src="img/4.jpg" alt=""></dt>
+                    <dd>自然风光</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/4.jpg" alt=""></dt>
+                    <dd>自然风光</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/4.jpg" alt=""></dt>
+                    <dd>自然风光</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/4.jpg" alt=""></dt>
+                    <dd>自然风光</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/4.jpg" alt=""></dt>
+                    <dd>自然风光</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/4.jpg" alt=""></dt>
+                    <dd>自然风光</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/4.jpg" alt=""></dt>
+                    <dd>自然风光</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/4.jpg" alt=""></dt>
+                    <dd>自然风光</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/4.jpg" alt=""></dt>
+                    <dd>自然风光</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/4.jpg" alt=""></dt>
+                    <dd>自然风光</dd>
+                </dl>
+             </div>
+             <div class="filter">
+                 <select name="" id="">
+                     <option value="">全部城市</option>
+                 </select>
+                 <select name="" id="">
+                    <option value="">综合排序</option>
+                </select>
+                <select name="" id="">
+                    <option value="">预定时限</option>
+                </select>
+             </div>
+             <div class="list">
+                 <div class="lis">
+                     <dl>
+                         <dt><img src="img/5.jpg" alt=""></dt>
+                         <dd>黄沙古都</dd>
+                     </dl>
+                     <dl>
+                        <dt><img src="img/5.jpg" alt=""></dt>
+                        <dd>黄沙古都</dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/5.jpg" alt=""></dt>
+                        <dd>黄沙古都</dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/5.jpg" alt=""></dt>
+                        <dd>黄沙古都</dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/5.jpg" alt=""></dt>
+                        <dd>黄沙古都</dd>
+                    </dl>
+                 </div>
+             </div>
+        </section>
+        <footer></footer>
+    </div>
+</body>
+<script>
+    var mySwiper=new Swiper('#swiper',{
+        autoplay:true,
+        pagination:{
+            el:'.swiper-pagination'
+        }
+    });
+    var BScroll=new BScroll('.list',{
+        scrollY:true
+    })
+</script>
+</html>
